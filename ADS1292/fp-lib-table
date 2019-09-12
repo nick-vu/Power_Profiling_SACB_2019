@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name SSAJ120100)(type Legacy)(uri ${KIPRJMOD}/libs/SSAJ120100.mod)(options "")(descr ""))
+  (lib (name TPS62746)(type KiCad)(uri ${KIPRJMOD}/libs/TPS62746.pretty)(options "")(descr ""))
+  (lib (name ICM-20948)(type Legacy)(uri ${KIPRJMOD}/libs/ICM-20948.mod)(options "")(descr ""))
+  (lib (name ICM_Custom)(type KiCad)(uri ${KIPRJMOD}/libs/ICM_Custom.pretty)(options "")(descr ""))
+)
