@@ -233,7 +233,7 @@ U 1 1 5D68578F
 P 1400 3250
 F 0 "J1" H 1506 3428 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1506 3337 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1400 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1400 3250 50  0001 C CNN
 F 3 "~" H 1400 3250 50  0001 C CNN
 	1    1400 3250
 	1    0    0    -1  
@@ -274,7 +274,7 @@ $EndComp
 Text GLabel 3850 1300 1    50   Input ~ 0
 AVDD
 Text GLabel 4750 2950 2    50   Input ~ 0
-DVDD
+AVDD
 $Comp
 L Device:C C10
 U 1 1 5D82A66A
@@ -411,43 +411,31 @@ DGND
 Text GLabel 3550 4150 3    60   Input ~ 0
 DGND
 Text Label 4750 2750 0    50   ~ 0
-INTB
+MAX30003_INTB
 Text Label 4750 2850 0    50   ~ 0
-INT2B
+MAX30003_INT2B
 Text Label 5000 3050 0    50   ~ 0
-SDO
+MAX30003_SDO
 Wire Wire Line
 	4150 3050 5000 3050
 Text Label 5000 3150 0    50   ~ 0
-SDI
+MAX30003_SDI
 Text Label 5000 3250 0    50   ~ 0
-SCLK
+MAX30003_SCLK
 Text Label 5000 3350 0    50   ~ 0
-CSB
+MAX30003_CSB
 Wire Wire Line
 	4150 3150 5000 3150
 Wire Wire Line
 	4150 3250 5000 3250
 Wire Wire Line
 	4150 3350 5000 3350
-Text Label 6300 2950 0    50   ~ 0
-INTB
 Wire Wire Line
 	5900 2950 6300 2950
-Text Label 6300 3050 0    50   ~ 0
-INT2B
 Wire Wire Line
 	6300 3050 5900 3050
-Text Label 6300 3150 0    50   ~ 0
-SDO
 Wire Wire Line
 	6300 3150 5900 3150
-Text Label 6300 3250 0    50   ~ 0
-SDI
-Text Label 6300 3350 0    50   ~ 0
-SCLK
-Text Label 6300 3450 0    50   ~ 0
-CSB
 Wire Wire Line
 	5900 3250 6300 3250
 Wire Wire Line
@@ -485,9 +473,22 @@ U 1 1 5D7BC804
 P 5700 3250
 F 0 "J2" H 5620 2725 50  0000 C CNN
 F 1 "Conn_01x06" H 5620 2816 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5700 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 5700 3250 50  0001 C CNN
 F 3 "~" H 5700 3250 50  0001 C CNN
 	1    5700 3250
 	-1   0    0    1   
 $EndComp
+Text Label 6300 2950 0    50   ~ 0
+MAX30003_INTB
+Text Label 6300 3050 0    50   ~ 0
+MAX30003_INT2B
+Text Label 6300 3150 0    50   ~ 0
+MAX30003_SDO
+Text Label 6300 3250 0    50   ~ 0
+MAX30003_SDI
+Text Label 6300 3350 0    50   ~ 0
+MAX30003_SCLK
+Text Label 6300 3450 0    50   ~ 0
+MAX30003_CSB
+NoConn ~ 5300 1400
 $EndSCHEMATC

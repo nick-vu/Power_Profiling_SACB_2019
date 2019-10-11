@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name EEG_ADS1299_2-cache)(type Legacy)(uri D:/Documents/GitHub/Low-power-ecg/EEG_ADS1299_2-cache.lib)(options "")(descr ""))
+  (lib (name tps62746)(type Legacy)(uri D:/Documents/GitHub/Low-power-ecg/tps62746.lib)(options "")(descr ""))
+  (lib (name BMI160)(type Legacy)(uri D:/Documents/GitHub/Low-power-ecg/BMI160.lib)(options "")(descr ""))
+  (lib (name MAX30003CTI+)(type Legacy)(uri D:/Documents/GitHub/Low-power-ecg/MAX30003CTI+.lib)(options "")(descr ""))
+  (lib (name SSAJ120100)(type Legacy)(uri D:/Documents/GitHub/Low-power-ecg/SSAJ120100.lib)(options "")(descr ""))
+  (lib (name TPS62746-cache)(type Legacy)(uri D:/Documents/GitHub/Power_Profiling_SACB_2019/Breakout/Voltage-Reg/TPS62746/TPS62746-cache.lib)(options "")(descr ""))
+)
